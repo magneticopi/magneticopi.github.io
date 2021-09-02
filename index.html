@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="./styles/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/7aa36192fa.js" crossorigin="anonymous"></script>
+  <link rel="icon" href="img/pi-avatar.png">
+  <title>Gonzalo Palermo - Front End Developer</title>  
+</head>
+<body>
+  <div class="main-container">
+    <section class="navbar-container__desktop">
+      <h1>Gonzalo Palermo</h1>
+      <nav class="lista-navbar">
+        <a href="#inicio">
+          <i class="fas fa-home"></i>Inicio
+        </a>        
+        <a href="#sobremi">
+          <i class="fas fa-user-alt"></i>Sobre Mí
+        </a>        
+        <a href="#servicios">
+          <i class="fas fa-briefcase"></i>Servicios
+        </a>
+        <a href="#estudios">
+          <i class="fas fa-user-graduate"></i>Estudios
+        </a>
+        <a href="#trabajos">
+          <i class="fas fa-code"></i>Mis Trabajos
+        </a>        
+        <a href="#form">
+          <i class="fas fa-comments"></i>Contactame
+        </a>
+      </nav>
+    </section>
+
+    <div class="full-container">
+      <section class="navbar-container__mobile">
+        <nav class="navbar-container__mobile__list">
+          <label for="navbar" class="navbar-container__mobile__list__label">
+            <input type="checkbox" id="navbar" class="navbar-input">
+            <div class="navbar-open">
+              <i class="fas fa-bars"></i>
+            </div>
+            <div class="navbar-close">
+              <i class="fas fa-times"></i>
+            </div>
+            <div class="navbar-contet">
+              <a href="index.html">
+                <i class="fas fa-home"></i>Inicio
+              </a>
+              <a href="#sobremi">
+                <i class="fas fa-user-alt"></i>Sobre Mi
+              </a>              
+              <a href="#servicios">
+                <i class="fas fa-briefcase"></i>Servicios
+              </a>      
+              <a href="#Estudios">
+                <i class="fas fa-user-graduate"></i>Estudios
+              </a>      
+              <a href="#trabajos">
+                <i class="fas fa-code"></i>Mis Trabajos
+              </a>              
+              <a href="#contacto">
+                <i class="fas fa-comments"></i>Hablemos
+              </a>
+            </div>
+          </label>
+        </nav>
+      </section>
+
+      <section class="banner-container" id="inicio">
+        <div class="background-image"></div>
+        
+        <div class="banner-container-main">
+          <img src="img/pi-avatar.png" alt="avatar">
+          <h2>Gonzalo Palermo</h2>
+          <span>Front End Developer</span>
+          
+          <div class="redes-sociales">
+            <a href="https://www.linkedin.com/in/gonzalo-palermo-144268217/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          
+            <a href="https://github.com/magneticopi" target="_blank"><i class="fab fa-github"></i></a>
+          
+            <a href="https://instagram.com/magnetico.pi" target="_blank"><i class="fab fa-instagram"></i></a>
+          
+            <a href="https://wa.me/1121814208" target="_blank"><i class="fab fa-whatsapp"></i></a>
+          </div><!--Redes-->
+          
+          <button class="boton-small">
+            <a href="#form">Contactame</a>
+          </button>
+        </div><!--banner-container-main-->
+
+          <a class="banner-container__scroll" href="#sobremi">
+            <span class="scroll">Scroll Down</span>
+            <img src="img/scroll.png" alt="desplazar">
+          </a>
+      </section>
+
+      <section class="container" id="sobremi">
+        <h3 class="titulo-principal">Sobre Mi</h3>
+        <div class="sobre-mi"> 
+          <img src="img/pi-avatar.png" alt="avatar">
+            <div class="contenido-sobremi">
+              <div class="descripcion-sobremi">
+                <span> ¡Hola! Soy Gonzalo y en este momento me encuentro capacitándome en
+                 Desarrollo Front End (HTML5 y CSS3) de la mano de la academia Rocket Code.</span>
+                <button class="curriculum">
+                <a href="https://www.linkedin.com/in/gonzalo-palermo-144268217/" target="_blank">Ver Curriculum</a>
+                </button>
+              </div>
+            
+              <div class="card-skills">
+                <div class="contenido-skills">
+                    <h3>HTML</h3>
+                    <div class="barra-progreso">
+                      <div class="barra-progreso-incompleta"></div>
+                    </div>
+                </div> 
+
+                <div class="contenido-skills">
+                  <h3>CSS</h3>
+                  <div class="barra-progreso">
+                    <div class="barra-progreso-incompleta"></div>
+                  </div>
+                </div> 
+
+                <div class="contenido-skills">
+                  <h3>UX/UI</h3>
+                    <div class="barra-progreso">
+                      <div class="barra-progreso-incompleta"></div>
+                    </div>
+                </div> 
+              </div><!--cardskills-->
+            </div><!--contenidosobremi-->            
+        </div><!--sobremi-->
+      </section>
+
+      <section class="contenedor-servicios container" id="servicios">
+        <h3 class="titulo-principal">Servicios</h3>
+        <div class="cards-servicios">
+          <div class="servicios card-html">
+            <img src="img/dev.svg" alt="imagen-card">
+            <span class="card-servicios-titulo">html</span>
+            <p>Desarrollo de páginas web para que tu proyecto tenga un lugar 
+            adecuado donde mostrar tus productos y/o servicios.</p>
+          </div>
+
+          <div class="servicios card-css">
+            <img src="img/css.svg" alt="imagen-card">
+            <span class="card-servicios-titulo">css</span>
+            <p>Los estilos, colores y propiedades indicados para crear una página web vistosa y 
+            resaltar tu marca.</p>
+          </div>
+
+          <div class="servicios card-ux">
+            <img src="img/ux.svg" alt="imagen-card">
+            <span class="card-servicios-titulo">UX/UI</span>
+            <p>Con UX/UI podemos optimizar la experiencia del usuario así como la interfaz
+            de la página web de tu emprendimiento.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="experience-container container" id="estudios">
+        <h3 class="titulo-principal">Estudios</h3>
+        <div class="container-estudios">
+          <div class="card-estudios">
+            <div class="data-estudios">
+              <i class="fas fa-graduation-cap"></i>
+              <span class="year">Mayo 2021 - Finalizado </span>
+              <span class="academia">Rocket Code</span>
+              <p class="descripcion-estudios">Curso de HTML5 y CSS3.</p>
+            </div>
+            
+            <div class="data-estudios">
+              <i class="fas fa-graduation-cap"></i>
+              <span class="year">Agosto 2021 - Cursando</span>
+              <span class="academia">University of Harvard</span>
+              <p class="descripcion-estudios"> Curso gratuito de
+              Desarrollo Web Full Stack con HTML5, CSS3, JS y SQL.</p>
+            </div>
+
+            <div class="data-estudios">
+              <i class="fas fa-graduation-cap"></i>
+              <span class="year"> Septiembre 2021 - Cursando</span>
+              <span class="academia">Coder House</span>
+              <p class="descripcion-estudios">Curso de Introducción al Desarrollo Web: HTML y CSS.</p>
+            </div>
+          </div>
+
+          <div class="card-estudios">
+            <div class="data-estudios">
+              <i class="fas fa-user-graduate"></i>
+              <span class="year"> Abril 2018 - Cursando </span>
+              <span class="academia">ISEC</span>
+              <p class="descripcion-estudios">Carrera de Producción Audiovisual.</p>
+            </div>
+
+            <div class="data-estudios">
+              <i class="fas fa-user-graduate"></i>
+              <span class="year"> Octubre 2016 - Finalizado</span>
+              <span class="academia">Academia Leopoldo Marechal</span>
+              <p class="descripcion-estudios">Curso de Fotografía e Iluminación.</p>
+            </div>
+
+            <div class="data-estudios">
+              <i class="fas fa-user-graduate"></i>
+              <span class="year">Julio 2014 - Finalizado</span>
+              <span class="academia">Instituto Almafuerte</span>
+              <p class="descripcion-estudios">Curso de Introducción a Microsoft Office</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="works-container container" id="trabajos">
+        <h3 class="titulo-principal">Mis Trabajos</h3>
+        <div class="container-trabajos">
+          <div class="card-trabajos">
+              <img src="img/trabajo-1.svg" alt="imagen-html">
+              <div class="trabajos_mask">
+                <span>HTML5</span>
+              </div>
+          </div>
+
+          <div class="card-trabajos">
+              <img src="img/trabajo-2.svg" alt="imagen-css">
+              <div class="trabajos_mask">
+                <span>CSS3</span>
+              </div>
+          </div>
+            
+          <div class="card-trabajos">
+              <img src="img/trabajo-3.svg" alt="imagen-responsive">
+              <div class="trabajos_mask">
+              <span>Responsive</span>
+              </div>
+          </div>
+            
+          <div class="card-trabajos">
+              <img src="img/trabajo-4.svg" alt="imagen-html">
+              <div class="trabajos_mask">
+              <span>Listas</span>
+              </div>
+          </div>
+
+          <div class="card-trabajos">
+              <img src="img/trabajo-5.svg" alt="imagen-css">
+              <div class="trabajos_mask">
+              <span>Flexbox</span>
+              </div>
+          </div>
+            
+          <div class="card-trabajos">
+              <img src="img/trabajo-6.svg" alt="imagen-responsive">
+              <div class="trabajos_mask">
+              <span>Media Queries</span>
+              </div>
+          </div>
+        </div>
+
+          <button class="boton-small">
+            <a href="works.html" target="_blank">Ver Todos</a>
+          </button>
+      </section>
+
+      <section class="container" id="form">
+        <h3 class="titulo-principal">Contactame</h3>
+        <div class="container-contacto"> 
+          <div class="container-descripcion-contacto">
+            <span class="mensaje">¡Envíame un mensaje!</h4>
+            <p class="descripcion-contacto"> Si querés saber más sobre mi experiencia y/o contactarme
+            para lo que desees, podés hacerlo acá👋🏼</p>
+          </div>
+          
+          <form class="formulario">
+            <div class="formulario-input">
+              <label for="name"><input type="text" id="name" placeholder="Nombre"></label>
+              <label for="e-mail"><input type="email" id="e-mail" placeholder="E-mail"></label>
+            </div>
+              
+              <label class="area-texto" for="comentario"><textarea id="comentario" placeholder="Tu mensaje"></textarea></label>
+              <button type="submit" class="boton-small submit">Enviar</button>
+          </form>
+        </div>
+      </section>
+      
+      <footer class="footer">
+        <span>Gonzalo Palermo - 2021 &copy;</span>
+        <nav class="redes-footer">
+        <a href="https://www.linkedin.com/in/gonzalo-palermo-144268217/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          
+            <a href="https://github.com/magneticopi" target="_blank"><i class="fab fa-github"></i></a>
+          
+            <a href="https://instagram.com/magnetico.pi" target="_blank"><i class="fab fa-instagram"></i></a>
+          
+            <a href="https://wa.me/1121814208" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        </nav>
+      </footer>
+    </div>    
+  </div>
+</body>
+</html>
