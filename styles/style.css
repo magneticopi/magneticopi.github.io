@@ -46,7 +46,7 @@ h1 {
     min-width: 290px;
     max-width: 290px;
     border-right: solid 1px rgba(255, 255, 255, 0.1);
-    background-color: var(--color-primary);
+    background-color: #000000;
     padding: 60px 50px 103px;
 }
 
