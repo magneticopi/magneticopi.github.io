@@ -40,7 +40,7 @@ h1 {
 
 .navbar-container__mobile {
     display: none;
-    position: relative;
+    position: fixed;
     z-index: 9
 }
 
