@@ -41,7 +41,7 @@ h1 {
 .navbar-container__mobile {
     display: none;
     position: fixed;
-    z-index: 9
+    
 }
 
 .navbar-container__desktop {
