@@ -57,6 +57,7 @@ h1 {
     flex-direction: column;
     justify-content: center;
     background-color: #000000;
+    position: sticky;
 }
 
 .lista-navbar a {
